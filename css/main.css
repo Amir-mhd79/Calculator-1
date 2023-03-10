@@ -12,8 +12,8 @@
   display: flex
 }
 
-.h-\[250px\] {
-  height: 250px
+.h-\[110px\] {
+  height: 110px
 }
 
 .h-\[40px\] {
@@ -26,10 +26,6 @@
 
 .w-\[110px\] {
   width: 110px
-}
-
-.w-\[250px\] {
-  width: 250px
 }
 
 .w-full {
@@ -60,10 +56,6 @@
   border-radius: 0.375rem
 }
 
-.rounded-xl {
-  border-radius: 0.75rem
-}
-
 .bg-gray-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity))
@@ -82,9 +74,13 @@
   text-align: center
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem
+.text-\[13px\] {
+  font-size: 13px
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem
 }
 
 .text-xl {
@@ -95,11 +91,6 @@
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity))
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity))
 }
 
 .no-underline {
@@ -116,31 +107,121 @@
 }
 
 @media (min-width: 640px) {
+  .sm\:h-\[250px\] {
+    height: 250px
+  }
+
   .sm\:w-\[110px\] {
     width: 110px
+  }
+
+  .sm\:w-\[250px\] {
+    width: 250px
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
   }
 }
 
 @media (min-width: 768px) {
+  .md\:h-\[250px\] {
+    height: 250px
+  }
+
   .md\:w-\[180px\] {
     width: 180px
+  }
+
+  .md\:w-\[250px\] {
+    width: 250px
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
   }
 }
 
 @media (min-width: 1024px) {
+  .lg\:h-\[250px\] {
+    height: 250px
+  }
+
   .lg\:w-\[180px\] {
     width: 180px
+  }
+
+  .lg\:w-\[250px\] {
+    width: 250px
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
   }
 }
 
 @media (min-width: 1280px) {
+  .xl\:h-\[250px\] {
+    height: 250px
+  }
+
   .xl\:w-\[180px\] {
     width: 180px
+  }
+
+  .xl\:w-\[250px\] {
+    width: 250px
+  }
+
+  .xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
   }
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:h-\[250px\] {
+    height: 250px
+  }
+
   .\32xl\:w-\[180px\] {
     width: 180px
+  }
+
+  .\32xl\:w-\[250px\] {
+    width: 250px
+  }
+
+  .\32xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem
+  }
+
+  .\32xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
   }
 }
